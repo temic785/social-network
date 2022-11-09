@@ -1,32 +1,32 @@
 import React from "react";
-import s from "./Navbar.module.css";
+import n from "./Navbar.module.css";
 
 const Navbar = () => {
   return (
-    <nav className={s.nav}>
+    <nav className={n.nav}>
       <ul>
         <li>
-          <a href="#" className={s.item}>
+          <a href="#" className={n.item}>
             Profile
           </a>
         </li>
         <li>
-          <a href="#" className={s.item}>
+          <a href="#" className={n.item}>
             Messages
           </a>
         </li>
         <li>
-          <a href="#" className={s.item}>
+          <a href="#" className={n.item}>
             News
           </a>
         </li>
         <li>
-          <a href="#" className={s.item}>
+          <a href="#" className={n.item}>
             Music
           </a>
         </li>
         <li>
-          <a href="#" className={s.item}>
+          <a href="#" className={n.item}>
             Settings
           </a>
         </li>
