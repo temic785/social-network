@@ -1,5 +1,6 @@
 import React from "react";
 import Post from "./Post/Post";
+import S from "./Posts.module.css";
 
 const Posts = () => {
   return (
@@ -9,9 +10,14 @@ const Posts = () => {
         <div className="new-post_write">
           <input type="text"></input>
           <button>Send</button>
+          <div className={S.posts}>
+            <Post message="MY NAME IS KRATOS!!! I'M GOD OF WAR" />
+            <Post message="My first post" />
+            <Post message="GG! Thor is dead" />
+            <Post message="I love son" />
+          </div>
         </div>
       </div>
-      <Post />
     </div>
   );
 };
