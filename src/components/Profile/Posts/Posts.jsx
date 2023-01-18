@@ -12,9 +12,6 @@ const Posts = () => {
         </div>
       </div>
       <Post />
-      <Post />
-      <Post />
-      <Post />
     </div>
   );
 };
