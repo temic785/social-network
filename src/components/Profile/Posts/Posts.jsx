@@ -11,10 +11,10 @@ const Posts = () => {
           <input type="text"></input>
           <button>Send</button>
           <div className={S.posts}>
-            <Post message="MY NAME IS KRATOS!!! I'M GOD OF WAR" />
-            <Post message="My first post" />
-            <Post message="GG! Thor is dead" />
-            <Post message="I love son" />
+            <Post message="MY NAME IS KRATOS!!! I'M GOD OF WAR" count="115670" />
+            <Post message="My first post" count="2345" />
+            <Post message="GG! Thor is dead" count="424435" />
+            <Post message="I love son"  count="infinity"/>
           </div>
         </div>
       </div>

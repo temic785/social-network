@@ -1,21 +1,25 @@
 .App {
-	font-family: sans-serif;
- }
- .wrapper {
-	display: grid;
-	max-width: 1200px;
-	margin: 0 auto;
-	grid-template-areas:
-	  "h h"
-	  "n c";
- 
- 
-	grid-template-rows: 60px 1fr;
-	grid-template-columns: 2fr 10fr;
- }
- li{
-	list-style-type: none;
- }
-a{
-	text-decoration: none; 
+  font-family: sans-serif;
+}
+.app-wrapper {
+  display: grid;
+  max-width: 1200px;
+  margin: 0 auto;
+  grid-template-areas:
+    "h h"
+    "n c";
+
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 2fr 10fr;
+}
+li {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+.app-wrapper-content {
+  grid-area: c;
+  background-color: paleturquoise;
+  padding: 10px 20px 0px 20px;
 }

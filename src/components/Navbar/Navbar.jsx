@@ -6,12 +6,12 @@ const Navbar = () => {
     <nav className={n.nav}>
       <ul>
         <li>
-          <a href="#" className={n.item}>
+          <a href="/profile" className={n.item}>
             Profile
           </a>
         </li>
         <li>
-          <a href="#" className={n.item}>
+          <a href="/dialogs" className={n.item}>
             Messages
           </a>
         </li>
